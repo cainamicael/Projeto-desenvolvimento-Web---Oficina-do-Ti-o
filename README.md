@@ -1,2 +1,1 @@
-# Projeto desenvolvimento Web - Oficina do Tião
- 
+Projeto da faculdade, da matéria de desenvolvimento. Para ter acesso ao painel, o usuário é: admin e a senha tabmbem
