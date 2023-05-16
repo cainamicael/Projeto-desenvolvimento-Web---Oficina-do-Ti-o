@@ -1,0 +1,10 @@
+# HTID:21631325: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW No 000web host
+#php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:21631325:
+
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1 [QSA,L]
+
+Options -Indexes
