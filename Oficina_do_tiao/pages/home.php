@@ -49,22 +49,22 @@
         <div class="center">
             <h2 class="title">Especialidades</h2>
             <div class="w33 left box-especialidades">
-                <h3><i class="devicon-css3-plain"></i></h3>
-                <h4>CSS3</h4>
+                <h3><i class="fa-solid fa-motorcycle"></i></h3>
+                <h4>Motos</h4>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, odit? Voluptates, sint officiis. Voluptatem, earum obcaecati voluptatibus libero quis aspernatur temporibus iusto id dolorem amet. Doloribus vitae minima reiciendis enim.
                 </p>
             </div><!--Box especialidades-->
             <div class="w33 left box-especialidades">
-                <h3><i class="devicon-html5-plain"></i></h3>
-                <h4>HTML5</h4>
+                <h3><i class="fa-solid fa-car"></i></h3>
+                <h4>Carros</h4>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, odit? Voluptates, sint officiis. Voluptatem, earum obcaecati voluptatibus libero quis aspernatur temporibus iusto id dolorem amet. Doloribus vitae minima reiciendis enim.
                 </p>
             </div><!--Box especialidades-->
             <div class="w33 left box-especialidades">
-                <h3><i class="devicon-javascript-plain"></i></h3>
-                <h4>JavaScript</h4>
+                <h3><i class="fa-solid fa-plane"></i></h3>
+                <h4>Aeronaves</h4>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, odit? Voluptates, sint officiis. Voluptatem, earum obcaecati voluptatibus libero quis aspernatur temporibus iusto id dolorem amet. Doloribus vitae minima reiciendis enim.
                 </p>
