@@ -78,7 +78,7 @@
             <div id="depoimentos" class="w50 left depoimentos-container">
                 <h2 class="title">Depoimentos</h2>
                 <?php
-                    $sql = MySql::conectar()->prepare("SELECT * FROM `tb_site.depoimentos` ORDER BY order_id ASC LIMIT 3");//Quero só 3
+                    $sql = MySql::conectar()->prepare("SELECT * FROM `tb_site.depoimentos` ORDER BY order_id DESC LIMIT 3");//Quero só 3
                     $sql->execute();
 
                     $depoimentos = $sql->fetchAll();
