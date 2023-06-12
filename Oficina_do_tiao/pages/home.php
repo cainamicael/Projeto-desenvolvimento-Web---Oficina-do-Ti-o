@@ -101,7 +101,7 @@
                 <div class="servicos">
                     <ul>
                         <?php
-                            $sql = MySql::conectar()->prepare("SELECT * FROM `tb_site.servicos` ORDER BY order_id ASC LIMIT 3");//Quero só 3
+                            $sql = MySql::conectar()->prepare("SELECT * FROM `tb_site.servicos` ORDER BY order_id DESC LIMIT 8");//Quero só 3
                             $sql->execute();
         
                             $servicos = $sql->fetchAll();
