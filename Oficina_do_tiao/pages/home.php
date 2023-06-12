@@ -10,7 +10,7 @@
 
             <form method="post">
                 <h2>Quer receber descontos especiais?</h2>
-                <input type="email" name="email" required>
+                <input type="email" name="email" placeholder="Digite seu Email..." required>
                 <input type="hidden" name="identificador" value="form_home">
                 <input type="submit" name="acao" value="Cadastrar">
             </form>
@@ -36,7 +36,7 @@
 
             <div class="w50 left">
                 <!--Pegar imagem depois-->
-                <img class="right" src="<?php echo INCLUDE_PATH; ?>images/foto.jpg">
+                <img class="right" src="<?php echo INCLUDE_PATH; ?>images/tião.jpg">
             </div><!--w50-->
             <div class="clear"></div><!--clear-->
         </div><!--center-->
