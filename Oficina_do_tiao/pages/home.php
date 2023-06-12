@@ -23,14 +23,17 @@
     <section class="descricao-autor">
         <div class="center">
             <div class="w50 left">
-                <h2>Profissão: Programador Aeroespacial Terceirizado</h2>
+                <h2>Profissão: Protetor do Orçamento Brasileiro</h2>
 
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sequi ipsam dicta officia temporibus omnis tempore quisquam iusto fugit quia doloribus earum molestias quae et officiis eum nulla, nesciunt velit.
+                    Formado pela vida, desde sua infância, ensinado pelo seu pai, Orlingleydson Sebastião, conhecido como 
+                    TIÃO, concerta todo tipo de meio de transporte que vê pela frente. Seu primeiro trabalho carreira solo 
+                    foi fazer a retífica a domicílio de um Gol Quadrado Ap.
                 </p>
 
                 <p>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid, necessitatibus. Voluptatibus consectetur accusamus ratione, animi, hic numquam minima maxime excepturi iste amet consequuntur repellendus voluptatem repudiandae aliquid. Facilis, maxime culpa!
+                    Desde então, ele encontrou a vua vocação e vem se aperfeiçoando cada vez mais. Aprendeu durante o tempo que serviu a aeronautica, o concerto de aviões, helicópteros e afins. 
+                    Sua maior ambição é cobrir qualquer orçamento feito, e entregar um trabalho exemplar, com no mínimo, 1 ano de garantia!
                 </p>
             </div><!--w50-->
 
