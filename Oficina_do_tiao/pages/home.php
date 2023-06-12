@@ -52,21 +52,21 @@
                 <h3><i class="fa-solid fa-motorcycle"></i></h3>
                 <h4>Motos</h4>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, odit? Voluptates, sint officiis. Voluptatem, earum obcaecati voluptatibus libero quis aspernatur temporibus iusto id dolorem amet. Doloribus vitae minima reiciendis enim.
+                    Mexemos desde bicicletas, cinquentinhas, 125cc e afins, até Triumph's, Harley Davidson e geral
                 </p>
             </div><!--Box especialidades-->
             <div class="w33 left box-especialidades">
                 <h3><i class="fa-solid fa-car"></i></h3>
                 <h4>Carros</h4>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, odit? Voluptates, sint officiis. Voluptatem, earum obcaecati voluptatibus libero quis aspernatur temporibus iusto id dolorem amet. Doloribus vitae minima reiciendis enim.
+                    Concertamos carros, montamos carros novos a partir das sucatas, pintamos, mudamos de motor, turbinamos, etc...
                 </p>
             </div><!--Box especialidades-->
             <div class="w33 left box-especialidades">
                 <h3><i class="fa-solid fa-plane"></i></h3>
                 <h4>Aeronaves</h4>
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, odit? Voluptates, sint officiis. Voluptatem, earum obcaecati voluptatibus libero quis aspernatur temporibus iusto id dolorem amet. Doloribus vitae minima reiciendis enim.
+                    Refaturamos turbinas, trocamos asas, mexemos com parte elétrica, fazemos a diminuição da potência para economia de combustíveis, etc...
                 </p>
             </div><!--Box especialidades-->
             <div class="clear"></div>
