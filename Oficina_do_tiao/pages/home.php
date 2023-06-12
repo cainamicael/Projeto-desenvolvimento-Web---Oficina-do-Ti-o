@@ -9,7 +9,7 @@
            
 
             <form method="post">
-                <h2>Qual o seu melhor e-mail?</h2>
+                <h2>Quer receber descontos especiais?</h2>
                 <input type="email" name="email" required>
                 <input type="hidden" name="identificador" value="form_home">
                 <input type="submit" name="acao" value="Cadastrar">

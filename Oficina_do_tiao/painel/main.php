@@ -65,8 +65,8 @@ if (isset($_GET['url']) && $_GET['url'] == 'logout'){
                     <a <?php selecionadoMenu('editar-usuario'); ?> href="<?php echo INCLUDE_PATH_PAINEL?>editar-usuario">Editar Usuário</a>
                     <a <?php selecionadoMenu('adicionar-usuario'); ?> <?php verificaPermissaoMenu(2);?> href="<?php echo INCLUDE_PATH_PAINEL?>adicionar-usuario">Adicionar Usuário</a>
 
-                    <h2>Configuração Geral</h2>
-                    <a <?php selecionadoMenu('editar-site'); ?> href="">Editar Site</a>
+                    <!-- <h2>Configuração Geral</h2>
+                    <a <?php selecionadoMenu('editar-site'); ?> href="">Editar Site</a> -->
             </div><!--itens-menu-->
 
         </div><!--menu-wrapper-->
