@@ -14,7 +14,7 @@
 	spl_autoload_register($autoload);
 
 	//Constantes
-	define('INCLUDE_PATH','http://localhost/Curso-Desenvolvimento-Web-Completo/Curso/projeto_01/'); 
+	define('INCLUDE_PATH','http://localhost/Projeto-desenvolvimento-Web---Oficina-do-Ti-o/Oficina_do_tiao/'); 
 	define('INCLUDE_PATH_PAINEL',INCLUDE_PATH.'painel/'); 
 	define('BASE_DIR_PAINEL', __DIR__.'/painel');
 	define('NOME_EMPRESA', 'Danki Code');
