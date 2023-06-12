@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-	<title>Oficina do Tião</title>
+	<title>Projeto 01: Site criado para aprender tecnicas de Front e Beck end</title>
 
 	 <!--Importando fontes-->
      <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
@@ -50,7 +50,7 @@
 
 	<header>
 		<div class="center">
-			<div class="logo left"><a href="<?php echo INCLUDE_PATH; ?>">O tião Oficial</a></div><!--logo-->
+			<div class="logo left"><a href="<?php echo INCLUDE_PATH; ?>">Logomarca</a></div><!--logo-->
 			<nav class="desktop right">
 				<ul>
 					<li><a href="<?php echo INCLUDE_PATH; ?>">Home</a></li>

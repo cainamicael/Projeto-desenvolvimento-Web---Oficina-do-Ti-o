@@ -9,8 +9,8 @@
            
 
             <form method="post">
-                <h2>Quer Ofertas Exclusivas?</h2>
-                <input type="email" name="email" placeholder="Digite seu email..."required>
+                <h2>Qual o seu melhor e-mail?</h2>
+                <input type="email" name="email" required>
                 <input type="hidden" name="identificador" value="form_home">
                 <input type="submit" name="acao" value="Cadastrar">
             </form>
@@ -23,7 +23,7 @@
     <section class="descricao-autor">
         <div class="center">
             <div class="w50 left">
-                <h2>Tião - Protetor do Orçamento Brasileiro</h2>
+                <h2>Profissão: Programador Aeroespacial Terceirizado</h2>
 
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet sequi ipsam dicta officia temporibus omnis tempore quisquam iusto fugit quia doloribus earum molestias quae et officiis eum nulla, nesciunt velit.
@@ -36,33 +36,32 @@
 
             <div class="w50 left">
                 <!--Pegar imagem depois-->
-                <img class="right" src="<?php echo INCLUDE_PATH; ?>images/tião.jpg">
+                <img class="right" src="<?php echo INCLUDE_PATH; ?>images/foto.jpg">
             </div><!--w50-->
             <div class="clear"></div><!--clear-->
         </div><!--center-->
     </section><!--Descrição autor-->
-
-
+    
     <section class="especialidades">
         <div class="center">
             <h2 class="title">Especialidades</h2>
             <div class="w33 left box-especialidades">
-                <h3><i class="fa-solid fa-motorcycle"></i></h3>
-                <h4>Motos</h4>
+                <h3><i class="devicon-css3-plain"></i></h3>
+                <h4>CSS3</h4>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, odit? Voluptates, sint officiis. Voluptatem, earum obcaecati voluptatibus libero quis aspernatur temporibus iusto id dolorem amet. Doloribus vitae minima reiciendis enim.
                 </p>
             </div><!--Box especialidades-->
             <div class="w33 left box-especialidades">
-                <h3><i class="fa-solid fa-car"></i></h3>
-                <h4>Carros</h4>
+                <h3><i class="devicon-html5-plain"></i></h3>
+                <h4>HTML5</h4>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, odit? Voluptates, sint officiis. Voluptatem, earum obcaecati voluptatibus libero quis aspernatur temporibus iusto id dolorem amet. Doloribus vitae minima reiciendis enim.
                 </p>
             </div><!--Box especialidades-->
             <div class="w33 left box-especialidades">
-                <h3><i class="fa-solid fa-plane"></i></h3>
-                <h4>Aviões</h4>
+                <h3><i class="devicon-javascript-plain"></i></h3>
+                <h4>JavaScript</h4>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, odit? Voluptates, sint officiis. Voluptatem, earum obcaecati voluptatibus libero quis aspernatur temporibus iusto id dolorem amet. Doloribus vitae minima reiciendis enim.
                 </p>
@@ -71,49 +70,46 @@
         </div><!--center-->
     </section><!--Especialidades-->
 
-    <div class="video">
-        <iframe class="video-iframe" width="560" height="315" src="https://www.youtube.com/embed/uuTwF2tFHKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-    </div><!--video-->
-    
-    
-
     <section class="extras">
         <div class="center">
             <div id="depoimentos" class="w50 left depoimentos-container">
                 <h2 class="title">Depoimentos</h2>
+                <?php
+                    $sql = MySql::conectar()->prepare("SELECT * FROM `tb_site.depoimentos` ORDER BY order_id ASC LIMIT 3");//Quero só 3
+                    $sql->execute();
+
+                    $depoimentos = $sql->fetchAll();
+
+                    foreach ($depoimentos as $key => $value) {
+                        # code...
+                    
+                ?>
                 <div class="depoimento-single">
                     <p class="depoimento-descricao">
-                        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam earum repellendus consequuntur adipisci asperiores tempora facilis necessitatibus eligendi id quisquam aspernatur, blanditiis quam ut, aperiam at? Numquam mollitia quisquam nesciunt!"
+                        <?php echo $value['depoimento'];?>
                     </p>
-                    <p class="nome-autor">Lorem Ipsum</p>
+                    <p class="nome-autor"><?php echo $value['nome'];?> - <?php echo $value['data']?></p>
                 </div><!--Depoimento single-->
-                <div class="depoimento-single">
-                    <p class="depoimento-descricao">
-                        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam earum repellendus consequuntur adipisci asperiores tempora facilis necessitatibus eligendi id quisquam aspernatur, blanditiis quam ut, aperiam at? Numquam mollitia quisquam nesciunt!"
-                    </p>
-                    <p class="nome-autor">Lorem Ipsum</p>
-                </div><!--Depoimento single-->
-                <div class="depoimento-single">
-                    <p class="depoimento-descricao">
-                        "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam earum repellendus consequuntur adipisci asperiores tempora facilis necessitatibus eligendi id quisquam aspernatur, blanditiis quam ut, aperiam at? Numquam mollitia quisquam nesciunt!"
-                    </p>
-                    <p class="nome-autor">Lorem Ipsum</p>
-                </div><!--Depoimento single-->
+                <?php } ?>
             </div><!--w50-->
 
             <div id="servicos" class="w50 left servicos-container">
                 <h2 class="title">Serviços</h2>
                 <div class="servicos">
                     <ul>
+                        <?php
+                            $sql = MySql::conectar()->prepare("SELECT * FROM `tb_site.servicos` ORDER BY order_id ASC LIMIT 3");//Quero só 3
+                            $sql->execute();
+        
+                            $servicos = $sql->fetchAll();
+        
+                            foreach ($servicos as $key => $value) {
+
+                        ?>
                         <li>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, veritatis iure, architecto officiis facere consectetur nulla et tempora quia delectus odit deleniti quasi. Iste tempora quod, nam adipisci dignissimos minus!
+                            <?php echo $value['servico'];?>
                         </li>
-                        <li>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, veritatis iure, architecto officiis facere consectetur nulla et tempora quia delectus odit deleniti quasi. Iste tempora quod, nam adipisci dignissimos minus!
-                        </li>
-                        <li>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, veritatis iure, architecto officiis facere consectetur nulla et tempora quia delectus odit deleniti quasi. Iste tempora quod, nam adipisci dignissimos minus!
-                        </li>
+                        <?php } ?>
                     </ul>
                 </div><!--servicos-->
             </div><!--w50-->

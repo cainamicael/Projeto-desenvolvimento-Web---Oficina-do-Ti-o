@@ -52,13 +52,14 @@ if (isset($_GET['url']) && $_GET['url'] == 'logout'){
             <div class="items-menu">
                     <h2>Cadastro</h2>
                     <a <?php selecionadoMenu('cadastrar-depoimento');?>href="<?php echo INCLUDE_PATH_PAINEL;?>cadastrar-depoimento">Cadastrar Depoimento</a>
-                    <a <?php selecionadoMenu('cadastrar-servico'); ?> href="">Cadastrar Serviço</a>
-                    <a <?php selecionadoMenu('cadastrar-slides'); ?> href="">Cadastrar Slides</a>
-                    <a <?php selecionadoMenu('listar-slides'); ?> href="">Listar Slides</a>
+                    <a <?php selecionadoMenu('cadastrar-servico'); ?> href="<?php echo INCLUDE_PATH_PAINEL;?>cadastrar-servico">Cadastrar Serviço</a>
+                    <a <?php selecionadoMenu('cadastrar-slides'); ?> href="<?php echo INCLUDE_PATH_PAINEL;?>cadastrar-slides">Cadastrar Slides</a>
 
                     <h2>Gestão</h2>
                     <a <?php selecionadoMenu('listar-depoimentos'); ?> href="<?php echo INCLUDE_PATH_PAINEL?>listar-depoimentos">Listar Depoimentos</a>
-                    <a <?php selecionadoMenu('listar-servicos'); ?> href="">Listar Serviços</a>
+                    <a <?php selecionadoMenu('listar-servicos'); ?> href="<?php echo INCLUDE_PATH_PAINEL?>listar-servicos">Listar Serviços</a>
+                    <a <?php selecionadoMenu('listar-slides'); ?> href="<?php echo INCLUDE_PATH_PAINEL?>listar-slides">Listar Slides</a>
+
 
                     <h2>Administração do Painel</h2>
                     <a <?php selecionadoMenu('editar-usuario'); ?> href="<?php echo INCLUDE_PATH_PAINEL?>editar-usuario">Editar Usuário</a>
