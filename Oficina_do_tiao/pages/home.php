@@ -32,7 +32,7 @@
                 </p>
 
                 <p>
-                    Desde então, ele encontrou a vua vocação e vem se aperfeiçoando cada vez mais. Aprendeu durante o tempo que serviu a aeronautica, o concerto de aviões, helicópteros e afins. 
+                    Desde então, ele encontrou a sua vocação e vem se aperfeiçoando cada vez mais. Aprendeu durante o tempo que serviu a aeronautica, o concerto de aviões, helicópteros e afins. 
                     Sua maior ambição é cobrir qualquer orçamento feito, e entregar um trabalho exemplar, com no mínimo, 1 ano de garantia!
                 </p>
             </div><!--w50-->
